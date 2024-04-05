@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroImg from "../../assets/coffee2.png"
 
-const Home = () => {
+const Hero = () => {
   return (
     <div className='min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center 
     items-center text-white'>
@@ -42,4 +42,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Hero
