@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./components/Navbar/Navbar";
-
+import Home from "./components/Home/Home";
 
 const App = () => {
 
@@ -21,10 +21,10 @@ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <Navbar/>
-      {/* <Home/>
-      <About/>
+      <Home/>
+      {/* <About/>
       <Menu/>
-      <Contact/> */}
+      <Contact/>  */}
     </div>
   )
 }
